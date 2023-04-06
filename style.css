@@ -5,21 +5,23 @@
     transition: color linear 2s;
 } */
 
-#link {
+/* #link {
     color: green;
+} */
+
+
+
+
+
+/* .mylink {
+    color: red;
+} */
+
+[target="_blank"] {
+    color: black;
 }
-
-
 
 a {
     color: blue;
     /* transition: color linear 2s; */
 }
-
-.mylink {
-    color: red;
-}
-
-/* [target="_blank"] {
-    color: black;
-} */
