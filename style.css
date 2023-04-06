@@ -1,3 +1,25 @@
-a {
-    color: blueviolet;
+
+
+/* a:hover {
+    color: red;
+    transition: color linear 2s;
+} */
+
+#link {
+    color: green;
 }
+
+
+
+a {
+    color: blue;
+    /* transition: color linear 2s; */
+}
+
+.mylink {
+    color: red;
+}
+
+/* [target="_blank"] {
+    color: black;
+} */
