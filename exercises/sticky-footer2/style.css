@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    position: sticky;
+    top: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
+}
+
+main{
+    flex-grow: 8;
+    flex-shrink: 8;
+}
+
+footer {
+    background: red;
+    position: sticky;
+    flex-grow: 1;
+    flex-shrink: 1;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
+}
