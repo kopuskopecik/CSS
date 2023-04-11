@@ -1,28 +1,22 @@
-body {
-    display: flex;
-    flex-direction: column;
+body{
     height: 100vh;
     margin: 0;
+    display: grid;
+    grid-template-rows: 1fr 9fr 1fr;
 }
 
 header {
     background-color: red;
     position: sticky;
     top: 0;
-    flex: 1;
     text-align: center;
     color: white;
     padding: 1.5rem;
 }
 
-main{
-    flex: 10;
-}
-
 footer {
     background: red;
     position: sticky;
-    flex: 10;
     bottom: 0;
     text-align: center;
     color: white;
