@@ -1,13 +1,8 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
     margin: 0;
-    padding: 0;
-}
-
-main {
-    flex: 1;
+    min-height: 100vh;
 }
 
 ul {
@@ -17,17 +12,39 @@ ul {
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
 }
-
 
 /* min-width 751px */
 @media only screen and (min-width: 46.938em) {
-    
+    footer nav {
+        display: flex;
+    }
+    footer div {        
+        width: 50vw;
+    }
 }
 
 /* min-width 1025px */
 @media only screen and (min-width: 64.063em) {
-    
+    footer {
+        grid-template-areas: "nav nav h3 h3"
+                             "nav nav p p"
+                             "address address address address";
+        width: 100%;
+    }
+    footer div {        
+        width: auto;
+    }
+    footer nav {
+        grid-area: nav;
+    }
+    footer > h3 {
+        grid-area: h3;
+    }
+    footer p {
+        grid-area: p;
+    }
+    footer address {
+        grid-area: address;
+    }
 }
