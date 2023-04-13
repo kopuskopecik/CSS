@@ -10,3 +10,24 @@ main {
     flex: 1;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+
+/* min-width 751px */
+@media only screen and (min-width: 46.938em) {
+    
+}
+
+/* min-width 1025px */
+@media only screen and (min-width: 64.063em) {
+    
+}
